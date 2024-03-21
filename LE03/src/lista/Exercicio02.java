@@ -5,14 +5,14 @@ import lista.classes.Consumo;
 import java.util.Scanner;
 
 public class Exercicio02 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void executar() {
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Informe a distância total percorrida (em km): ");
-        double distanciaTotal = scanner.nextDouble();
+        double distanciaTotal = sc.nextDouble();
 
         System.out.print("Informe o total de combustível gasto (em litros): ");
-        double combustivelGasto = scanner.nextDouble();
+        double combustivelGasto = sc.nextDouble();
 
         Consumo consumo = new Consumo(distanciaTotal, combustivelGasto);
 
@@ -20,6 +20,6 @@ public class Exercicio02 {
 
         System.out.println("O consumo médio do automóvel foi de: " + consumoMedio + " km/l");
 
-        scanner.close();
+        sc.close();
     }
 }

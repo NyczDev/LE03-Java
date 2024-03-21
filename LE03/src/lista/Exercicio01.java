@@ -6,19 +6,19 @@ import lista.classes.Aluno;
 
 public class Exercicio01 {
     public static void executar() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Nome do aluno: ");
-        String nome = scanner.nextLine();
+        String nome = sc.nextLine();
 
         System.out.print("Nota 1: ");
-        double nota1 = scanner.nextDouble();
+        double nota1 = sc.nextDouble();
 
         System.out.print("Nota 2: ");
-        double nota2 = scanner.nextDouble();
+        double nota2 = sc.nextDouble();
 
         System.out.print("Nota 3: ");
-        double nota3 = scanner.nextDouble();
+        double nota3 = sc.nextDouble();
 
         Aluno aluno = new Aluno(nome, nota1, nota2, nota3);
         double media = calcularMedia(aluno);
@@ -26,7 +26,7 @@ public class Exercicio01 {
         System.out.println("Nome: " + aluno.getNome());
         System.out.println("Média: " + media);
 
-        scanner.close();
+        sc.close();
     }
 
     public static double calcularMedia(Aluno aluno) {

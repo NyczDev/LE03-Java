@@ -41,7 +41,7 @@ public class Programa {
               case 1:
               Exercicio01.executar();
               break;
-              /*case 2:
+              case 2:
               Exercicio02.executar();
               break;
               case 3:
@@ -50,7 +50,7 @@ public class Programa {
               case 4:
               Exercicio04.executar();
               break;
-              case 5:
+              /*case 5:
               Exercicio05.executar();
               break;
               case 6:
