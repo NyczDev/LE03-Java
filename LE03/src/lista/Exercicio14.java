@@ -5,10 +5,10 @@ import lista.classes.Produto;
 import java.util.Scanner;
 
 public class Exercicio14 {
-    public static void main(String[] args) {
+    public static void executar() {
         Scanner sc = new Scanner(System.in);
 
-        Produto[] produtos = new Produto[5];
+        Produto[] produtos = new Produto[40];
 
         for (int i = 0; i < produtos.length; i++) {
             System.out.printf("Informe o preço de custo do produto %d: ", i + 1);

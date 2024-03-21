@@ -6,10 +6,10 @@ import lista.classes.Custo;
 
 public class Exercicio07 {
     public static void executar() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o custo de fábrica do carro: ");
-        double custoFabrica = scanner.nextDouble();
+        double custoFabrica = sc.nextDouble();
 
         double percentualDistribuidor = 0.28, impostos = 0.45;
         double custoComImpostos = 0;
@@ -20,6 +20,6 @@ public class Exercicio07 {
 
         System.out.printf("O custo ao consumidor do carro é: R$ %.2f%n", custo);
 
-        scanner.close();
+        sc.close();
     }
 }
