@@ -83,10 +83,10 @@ public class Programa {
               case 15:
               Exercicio15.executar();
               break; 
-              /*case 16:
+              case 16:
               Exercicio16.executar();
               break;
-              case 17:
+              /*case 17:
               Exercicio17.executar();
               break;
               case 18:
