@@ -1,10 +1,10 @@
 package lista.classes;
 
-public class Compra {
+public class Prestacao {
   
-    private double valorTotal;
+    public double valorTotal;
 
-    public Compra(double valorTotal) {
+    public Prestacao(double valorTotal) {
         this.valorTotal = valorTotal;
     }
 

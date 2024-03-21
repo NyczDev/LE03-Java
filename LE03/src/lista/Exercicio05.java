@@ -2,7 +2,7 @@ package lista;
 
 import java.util.Scanner;
 
-import lista.classes.Compra;
+import lista.classes.Prestacao;
 
 public class Exercicio05 {
     public static void executar() {
@@ -11,9 +11,9 @@ public class Exercicio05 {
         System.out.print("Informe o valor da compra: R$ ");
         double valorCompra = sc.nextDouble();
 
-        Compra compra = new Compra(valorCompra);
+        Prestacao prestacao = new Prestacao(valorCompra);
 
-        double valorPrestacao = compra.calcularValorPrestacao();
+        double valorPrestacao = prestacao.calcularValorPrestacao();
 
         System.out.printf("O valor de cada prestação (5x sem juros) é de: R$ %.2f%n", valorPrestacao);
 
