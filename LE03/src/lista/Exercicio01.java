@@ -1,35 +1,29 @@
 package lista;
 
 import java.util.Scanner;
-
 import lista.classes.Aluno;
 
 public class Exercicio01 {
     public static void executar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
-        System.out.print("Nome do aluno: ");
-        String nome = sc.nextLine();
+        System.out.println("Nome do Aluno: ");
+        String nome = ler.nextLine();
 
-        System.out.print("Nota 1: ");
-        double nota1 = sc.nextDouble();
+        System.out.println("Digite a Nota 1: ");
+        double nota1 = ler.nextDouble();
+        System.out.println("Digite a Nota 2: ");
+        double nota2 = ler.nextDouble();
+        System.out.println("Digite a Nota 3: ");
+        double nota3 = ler.nextDouble();
 
-        System.out.print("Nota 2: ");
-        double nota2 = sc.nextDouble();
+        Aluno objAluno = new Aluno(nome, nota1, nota2, nota3);
+        double media = objAluno.calcular_media(nota1, nota2, nota3);
 
-        System.out.print("Nota 3: ");
-        double nota3 = sc.nextDouble();
+        System.out.println("Nome: " + nome);
+        System.out.printf("Média: %.2f", media);
 
-        Aluno aluno = new Aluno(nome, nota1, nota2, nota3);
-        double media = calcularMedia(aluno);
-
-        System.out.println("Nome: " + aluno.getNome());
-        System.out.println("Média: " + media);
-
-        sc.close();
+        ler.close();
     }
 
-    public static double calcularMedia(Aluno aluno) {
-        return (aluno.getNota1() + aluno.getNota2() + aluno.getNota3()) / 3;
-    }
 }
