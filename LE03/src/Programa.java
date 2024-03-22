@@ -68,13 +68,13 @@ public class Programa {
               case 10:
               Exercicio10.executar();
               break;
-              /*case 11:
+              case 11:
               Exercicio11.executar();
               break;
               case 12:
               Exercicio12.executar();
               break;
-              case 13:
+              /*case 13:
               Exercicio13.executar();
               break;*/
               case 14:
@@ -101,12 +101,12 @@ public class Programa {
               case 21:
               Exercicio21.executar();
               break;
-              /*case 22:
+              case 22:
               Exercicio22.executar();
               break;
-              case 23:
+              /*case 23:
               Exercicio23.executar();
-              break;
+              break;*/
               case 24:
               Exercicio24.executar();
               break;
@@ -116,7 +116,7 @@ public class Programa {
               case 26:
               Exercicio26.executar();
               break;
-             */default:
+             default:
                 System.out.println("Opção inválida!");
         }
 

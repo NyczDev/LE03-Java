@@ -19,7 +19,7 @@ public class CategoriaNadador {
             } else if (idade >= 18 && idade <= 25) {
                 return "Sênior";
             } else {
-                return "Idade fora da faixa etária";
+                return "idade fora da faixa etária";
             }
         }
     }

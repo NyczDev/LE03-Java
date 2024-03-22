@@ -5,10 +5,10 @@ import lista.classes.VerificarIdade;
 
 public class Exercicio10 {
     public static void executar() {
-        Scanner ler = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite o total de pessoas: ");
-        int tamvet = ler.nextInt();
+        int tamvet = sc.nextInt();
 
         int pessoas[] = new int[tamvet];
 
@@ -16,12 +16,12 @@ public class Exercicio10 {
 
         for (int i = 0; i < pessoas.length; i++) {
             System.out.printf("Digite a idade da %d(º) pessoa: ", i + 1);
-            pessoas[i] = ler.nextInt();
+            pessoas[i] = sc.nextInt();
 
             objVerificador.verificador_idade(pessoas, i);
         }
 
-        ler.close();
+        sc.close();
     }
 
 }

@@ -5,17 +5,16 @@ import java.util.Scanner;
 import lista.classes.CategoriaNadador;
 public class Exercicio21 {
     public static void executar() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite a idade do nadador: ");
-        int idade = scanner.nextInt();
+        System.out.println("Digite a idade do nadador para ver a categoria: ");
+        int idade = sc.nextInt();
 
         CategoriaNadador categoriaNadador = new CategoriaNadador(idade);
         String categoria = categoriaNadador.classificarCategoria();
 
-        System.out.println("O nadador está na categoria: " + categoria);
+        System.out.println("O nadador está na categoria:" + categoria);
 
-        scanner.close();
+        sc.close();
     }
 }
-
