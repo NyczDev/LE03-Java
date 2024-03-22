@@ -95,13 +95,13 @@ public class Programa {
               case 19:
               Exercicio19.executar();
               break;
-              /*case 20:
+              case 20:
               Exercicio20.executar();
               break;
               case 21:
               Exercicio21.executar();
               break;
-              case 22:
+              /*case 22:
               Exercicio22.executar();
               break;
               case 23:
