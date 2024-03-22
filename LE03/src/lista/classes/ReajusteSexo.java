@@ -31,11 +31,11 @@ public class ReajusteSexo {
         return salarioFixo + abono;
     }
 
-    public String getNome() {
+    public String Nome() {
         return nome;
     }
 
-    public double getAbono() {
+    public double Abono() {
         return abono;
     }
 }
