@@ -1,4 +1,5 @@
 package lista.classes;
+
 public class Aluno {
     public String nome;
     public double nota1;
@@ -12,19 +13,8 @@ public class Aluno {
         this.nota3 = nota3;
     }
 
-    public String getNome() {
-        return nome;
+    public double calcular_media(double nota1, double nota2, double nota3) {
+        return (nota1 + nota2 + nota3) / 3;
     }
 
-    public double getNota1() {
-        return nota1;
-    }
-
-    public double getNota2() {
-        return nota2;
-    }
-
-    public double getNota3() {
-        return nota3;
-    }
 }

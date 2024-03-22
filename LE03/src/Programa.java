@@ -59,7 +59,7 @@ public class Programa {
               case 7:
               Exercicio07.executar();
               break;
-              /*case 8:
+              case 8:
               Exercicio08.executar();
               break;
               case 9:
@@ -74,7 +74,7 @@ public class Programa {
               case 12:
               Exercicio12.executar();
               break;
-              case 13:
+              /*case 13:
               Exercicio13.executar();
               break;*/
               case 14:
@@ -89,7 +89,7 @@ public class Programa {
               case 17:
               Exercicio17.executar();
               break;
-              /*case 18:
+              case 18:
               Exercicio18.executar();
               break;
               case 19:
@@ -104,9 +104,9 @@ public class Programa {
               case 22:
               Exercicio22.executar();
               break;
-              case 23:
+              /*case 23:
               Exercicio23.executar();
-              break;
+              break;*/
               case 24:
               Exercicio24.executar();
               break;
@@ -116,7 +116,7 @@ public class Programa {
               case 26:
               Exercicio26.executar();
               break;
-             */default:
+             default:
                 System.out.println("Opção inválida!");
         }
 
